@@ -2,31 +2,27 @@
 
 This library contains a collection of utilities for efficiently processing Knol-ML database dumps. There are two important features that this module intends to address: providing standard algorithms and efficient parsing of Knol-ML dump.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+### Bsic Example
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+KDAP is easy to use and can work on any of the knowledge data. Based on the standarization of Knol-ML platform, inter-portal analysis and knowledge building analysis can be performed efficiently. KDAP also represents the revision based data in compressed form, because of which a large data dump can be stored easily in RAM, achieving the parallel processing.
 
 ```markdown
-Syntax highlighted code block
+# import the KDAP method
 
-# Header 1
-## Header 2
-### Header 3
+`from kdap.converter.wikiConverter import wikiConverter`
+`from kdap.converter.qaConverter import qaConverter`
+`from kdap.analysis import knolAnalysis`
 
-- Bulleted
-- List
+# Download and convert the datadump of apple.stackexchange
+`qaConverter.download_qna('Stack Overflow',download=True,post=True)`
 
-1. Numbered
-2. List
+# count words in each thread
+`knolAnalysis.countAllWords(dir_path='path_of_directory')`
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+For more details see [GitHub Page](https://github.com/descentis/kdap).
 
 ### Jekyll Themes
 
