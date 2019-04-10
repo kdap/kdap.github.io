@@ -10,15 +10,15 @@ KDAP is easy to use and can work on any of the knowledge data. Based on the stan
 ```markdown
 # import the KDAP method
 
-`from kdap.converter.wikiConverter import wikiConverter`
-`from kdap.converter.qaConverter import qaConverter`
-`from kdap.analysis import knolAnalysis`
+from kdap.converter.wikiConverter import wikiConverter
+from kdap.converter.qaConverter import qaConverter
+from kdap.analysis import knolAnalysis
 
 # Download and convert the datadump of apple.stackexchange
-`qaConverter.download_qna('Stack Overflow',download=True,post=True)`
+qaConverter.download_qna('Stack Overflow',download=True,post=True)
 
 # count words in each thread
-`knolAnalysis.countAllWords(dir_path='path_of_directory')`
+knolAnalysis.countAllWords(dir_path='path_of_directory')
 
 
 ```
