@@ -1,6 +1,6 @@
-## Welcome to GitHub Pages
+## Knowledge Data Analysis and Processing Platform
 
-You can use the [editor on GitHub](https://github.com/kdap/kdap.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+This library contains a collection of utilities for efficiently processing Knol-ML database dumps. There are two important features that this module intends to address: providing standard algorithms and efficient parsing of Knol-ML dump.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
