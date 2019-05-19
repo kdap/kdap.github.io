@@ -7,7 +7,7 @@ This library contains a collection of utilities for efficiently processing Knol-
 * Repositiory: https://github.com/descentis/kdap
 * License: 3-Clause BSD
 
-### Bsic Example
+### Basic Example
 
 KDAP is easy to use and can work on any of the knowledge data. Based on the standarization of Knol-ML platform, inter-portal analysis and knowledge building analysis can be performed efficiently. KDAP also represents the revision based data in compressed form, because of which a large data dump can be stored easily in RAM, achieving the parallel processing.
 
