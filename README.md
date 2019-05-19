@@ -19,11 +19,44 @@ from kdap.converter.qaConverter import qaConverter
 from kdap.analysis import knolAnalysis
 
 # Download and convert the datadump of apple.stackexchange
-qaConverter.download_qna('Stack Overflow',download=True,post=True)
+qaConverter.convert('Stack Overflow',download=True,posthistory=True, post=True)
+
+# Download Wikipedia article
+wikiConverter.getArticle(file_name='', [output_dir=''])
+
+# Convert Wikipedia article into Knol-ML
+wikiConverter.compressAll(dir_name, output_dir='')
+
+# Iterate over revisions
+revisionList = knolAnalysis.getAllRevisions(file_name)
+for rev in revisionList:
+  revisions = knolAnalysis.wikiRetrieval(file_name,rev)
+  for revision in revisions:
+    # Write your analysis code here
+
+# Count number of revisions
+revCount = knolAnalysis.countRevInFiles([dir_path=''])
+
+# Count users
+userCount = knolAnalysis.countUsersInFiles([dir_path=''])
+
+# Age of knowledge data
+knolAge = knolAnalysis.getAgeOfKnowledge([dir_path=''])
+
+# Retrieve knowledge data by date
+knolByDate = knolAnalysis.knowledgeByDate(file_name, first_date[, last_date])
 
 # count words in each thread
-knolAnalysis.countAllWords(dir_path='path_of_directory')
+knolAnalysis.countAllWords([dir_path='path_of_directory'])
 
+# count images in each file
+knolAnalysis.getNumberOfImages([dir_path='path_of_directory'])
+
+# Compute user contribution
+knolAnalysis.getLocalGiniCoefficient([dir_path='path_of_directory'])
+
+# Get edit statistics
+knolAnalysis.getRevisionTypes([dir_path='path_of_directory'])
 
 ```
 For more details see [GitHub Page](https://github.com/descentis/kdap).
