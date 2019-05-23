@@ -4,7 +4,7 @@ This library contains a collection of utilities for efficiently processing Knol-
 
 
 * Installation: pip install kdap
-* Repositiory: https://github.com/descentis/kdap
+* Repositiory: Due to anonymization purpose, this repository has been hidden
 * License: 3-Clause BSD
 
 ### Basic Example
@@ -59,4 +59,3 @@ knolAnalysis.getLocalGiniCoefficient([dir_path='path_of_directory'])
 knolAnalysis.getRevisionTypes([dir_path='path_of_directory'])
 
 ```
-For more details see [GitHub Page](https://github.com/descentis/kdap).
