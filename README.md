@@ -63,8 +63,8 @@ knolAnalysis.getRevisionTypes([dir_path='path_of_directory'])
 ### ANALYSIS AND RETRIEVALOF KNOWLEDGEDATASET 
 As a part of KDAP, we are also maintaining the Analysis and Retrieval of Knowledge dataset, containing the knowledge dataset of  different collaborative portals including Wikipedia (all Featured articlesandGoodarticles), StackExchange network, and Wikia in Knol-ML format. Because of the anonimity purpose, we are not providing the link of dataset.
 
-| Priority apples | Second priority | Third priority |
+| Portal Name | Category | Description |
 |-------|--------|---------|
-| ambrosia | gala | red delicious |
-| pink lady | jazz | macintosh |
-| honeycrisp | granny smith | fuji |
+| Wikipedia | All revision history | The dataset contains the the full revision history of all the Featured Articles and Good Articles in compressed Knol-ML format |
+| Stack Exchange | All posts and Poshitory | All the questions, answers, votes and user's details of all the Stack Exchange websites in Knol-ML format |
+| Wikia | All revision history | Full revision history of Wikia pages in Knol-ML format |
