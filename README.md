@@ -62,3 +62,9 @@ knolAnalysis.getRevisionTypes([dir_path='path_of_directory'])
 
 ### ANALYSIS AND RETRIEVALOF KNOWLEDGEDATASET 
 As a part of KDAP, we are also maintaining the Analysis and Retrieval of Knowledge dataset, containing the knowledge dataset of  different collaborative portals including Wikipedia (all Featured articlesandGoodarticles), StackExchange network, and Wikia in Knol-ML format. Because of the anonimity purpose, we are not providing the link of dataset.
+
+| Priority apples | Second priority | Third priority |
+|-------|--------|---------|
+| ambrosia | gala | red delicious |
+| pink lady | jazz | macintosh |
+| honeycrisp | granny smith | fuji |
