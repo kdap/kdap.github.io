@@ -60,7 +60,7 @@ knolAnalysis.getRevisionTypes([dir_path='path_of_directory'])
 
 ```
 
-### ANALYSIS AND RETRIEVALOF KNOWLEDGEDATASET 
+### ANALYSIS AND RETRIEVAL OF KNOWLEDGE DATASET 
 As a part of KDAP, we are also maintaining the Analysis and Retrieval of Knowledge dataset, containing the knowledge dataset of  different collaborative portals including Wikipedia (all Featured articlesandGoodarticles), StackExchange network, and Wikia in Knol-ML format. Because of the anonimity purpose, we are not providing the link of dataset.
 
 | Portal Name | Category | Description |
