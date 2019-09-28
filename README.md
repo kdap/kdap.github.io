@@ -3,7 +3,7 @@
 This library contains a collection of utilities for efficiently processing Knol-ML database dumps. There are two important features that this module intends to address: providing standard algorithms and efficient parsing of Knol-ML dump.
 
 
-* Installation: pip install kdap
+* Installation: pip install kdap (since we are continously developing the library, the git pip may not work. In that case download the repository from here.)
 * Repositiory: Due to anonymization purpose, this repository has been hidden
 * License: 3-Clause BSD
 
